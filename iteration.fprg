@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="iteration"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 09:05:39 AM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzA5OjAyOjQwIEFNOzIxMDU="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzA5OjA1OjM5IEFNOzE7MjIyNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <while expression="i&lt;=10">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

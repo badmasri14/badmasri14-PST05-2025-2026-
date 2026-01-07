@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="larger among 3"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 11:02:44 AM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzEwOjU3OjE1IEFNOzIxMDk="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzExOjAyOjQ0IEFNOzE7MjIxMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, largest" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a&gt;=b&amp;&amp;a&gt;=c">
+                <then>
+                    <assign variable="largest" expression="a"/>
+                </then>
+                <else>
+                    <if expression="b&gt;=a&amp;&amp;b&gt;=c">
+                        <then>
+                            <assign variable="largest" expression="b"/>
+                        </then>
+                        <else>
+                            <assign variable="largest" expression="c"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="largest" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

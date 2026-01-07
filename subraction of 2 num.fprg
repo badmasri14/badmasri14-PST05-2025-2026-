@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="addition of 2 num"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:04:02 AM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzA5OjQ5OjM1IEFNOzIxMTk="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzEwOjA0OjAyIEFNOzI7MjIwNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1" type="Integer" array="False" size=""/>
+            <declare name="num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="5"/>
+            <assign variable="num2" expression="25"/>
+            <output expression="num1-num2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

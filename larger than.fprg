@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="larger than"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 10:54:44 AM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzEwOjUxOjA3IEFNOzIxMDQ="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzEwOjU0OjQ0IEFNOzE7MjIxNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <input variable="num1"/>
+            <input variable="num2"/>
+            <if expression="num1&gt;=num2">
+                <then>
+                    <output expression="&quot;completed&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;try again&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

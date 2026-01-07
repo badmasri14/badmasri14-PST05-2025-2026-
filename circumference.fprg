@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:33:34 PM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzAzOjI2OjE3IFBNOzIxMjM="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzAzOjMzOjM0IFBNOzE7MjIyOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="circumference, pie, radius" type="Integer" array="False" size=""/>
+            <input variable="radius"/>
+            <assign variable="pie" expression="3.14"/>
+            <assign variable="circumference" expression="2*pie*radius"/>
+        </body>
+    </function>
+</flowgorithm>

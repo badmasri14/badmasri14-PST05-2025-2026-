@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fahrenhet"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:38:45 PM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzAzOjMzOjQ0IFBNOzIxMjE="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA2OzAzOjM4OjQ1IFBNOzE7MjIzNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius, fahrenhet" type="Integer" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="fahrenhet" expression="(9*celsius/5)+32"/>
+        </body>
+    </function>
+</flowgorithm>

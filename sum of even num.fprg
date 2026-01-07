@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum of even num"/>
+        <attribute name="authors" value="srima"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-07 10:57:12 AM"/>
+        <attribute name="created" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzEwOjU0OjQ4IEFNOzIxMTI="/>
+        <attribute name="edited" value="c3JpbWE7VkpNQjsyMDI2LTAxLTA3OzEwOjU3OjEyIEFNOzE7MjIxNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, sum" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="2"/>
+            <assign variable="sum" expression="0"/>
+            <while expression="i&lt;=100">
+                <assign variable="sum" expression="sum+i"/>
+                <assign variable="i" expression="i+2"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

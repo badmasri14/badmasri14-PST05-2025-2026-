@@ -13,14 +13,12 @@ public class Pattern
     }
 }
 class StarPattern {
-
  void horizontalStars() {
      int n = 5;
      for (int i = 1; i <= n; i++) {
          System.out.print("* ");
      }
  }
-
  void verticalStars() {
      int n = 5;
      for (int i = 1; i <= n; i++) {
